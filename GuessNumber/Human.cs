@@ -14,7 +14,7 @@ namespace GuessNumber
         public void play()
         {
             string game = Console.ReadLine();
-            game.ToLower();
+            game=game.ToLower();
             if (game == "y") { this.WannaPlay = true; }
             else if (game == "n") { this.WannaPlay = false; }
             else { 
